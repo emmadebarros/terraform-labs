@@ -2,8 +2,8 @@
 #Hard-coded access and secret keys are not recommended
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAXIEQIBENQDZTYEIM"
-  secret_key = "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"
+  access_key = "<access_key"
+  secret_key = "<security_key>"
 }
 
 /*
