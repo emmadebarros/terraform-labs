@@ -35,3 +35,6 @@ output "pet-name" {
 
 #we added a new provider, so need to run terraform init again
 #random provider is a logical provider, and it displays the result of the pet name on the console
+
+#data sources allow terraform to read attributes from resources which are provisonned outside its control
+#e.g. feed a local_file resource content's the content of a local file created outside of terraform
